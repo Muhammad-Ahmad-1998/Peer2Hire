@@ -90,7 +90,7 @@ module.exports = {
     },
     
     sendMessage: async function (request, result) {
-        const self = this
+        const self = this 
 
         this.request = request
         this.result = result
@@ -461,4 +461,4 @@ module.exports = {
         });
     }
 
-};
+}; 
