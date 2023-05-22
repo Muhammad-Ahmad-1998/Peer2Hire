@@ -391,7 +391,7 @@ module.exports = {
         var friendId = "";
 
         /* check if the message is sent by the logged in user */
-        var isSentByMe = false;
+        var isSentByMe = false; 
         for (var a = 0; a < user.friends.length; a++) {
             var friend = user.friends[a];
             for (var b = 0; b < friend.inbox.length; b++) {
